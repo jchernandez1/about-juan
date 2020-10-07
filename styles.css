@@ -1,20 +1,97 @@
 .center-image {
     text-align: center;
+
 }
 
 h1 {
     text-align: center;
+    position: relative;
+    top: 90px;
+    font-family: Century;
+
 }
 
-h2 {
+#story {
+    position: absolute;
     text-align: center;
+    color: red;
+    z-index: 1;
+    top: 220px;
+    left: 630px;
+
 }
 
-p {
+#white-line {
     text-align: center;
+    background: white;
+    width: 410px;
+    height: 2px;
+    position: absolute;
+    top: 260px;
+    left: 411px;
+
 }
 
-img {
+
+.shape {
+    shape-outside: circle();
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    background: linear-gradient(cornflowerblue, aquamarine);
+    opacity: 0.4;
+    position: absolute;
+    left: 250px;
+    top: 60px;
+    z-index: -1;
+    border-color: darkred ;
     border-style: solid;
-    border-color: darkred;
+
+
+
 }
+
+.hat {
+    position: relative;
+    top: -200px;
+    left: 50px;
+    z-index: 0;
+}
+
+.about-juan {
+
+    word-wrap: break-word;
+    position: absolute;
+    top: 265px;
+    left: 505px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+
+#family-photo {
+    border-radius: 30%;
+    transform: rotate(-33deg);
+    position: absolute;
+    top: 360px;
+    left: 1020px;
+    z-index: 2;
+    max-width: 17%;
+    max-height: 17%;
+}
+
+#tacos {
+border-radius: 30%;
+transform: rotate(-307deg);
+    position: absolute;
+    top: 845px;
+    left: 300px;
+    z-index: 2;
+    max-width: 23%;
+    max-height: 23%;
+
+}
+
